@@ -8,7 +8,7 @@
 但是人力计算每人收益难免会出差错而且浪费时间，故写出一个数据版来作为参考数据。
 加入挖矿数据，不用上卡爆的sparkpool官网也能查看详细数据。
 # 样例
-登录页面 https://minecart.ljjserve.cn
+登录页面 https://minecart.ljjserver.cn/
 账户/密码 test Aa123456
 # 联系方式
 目前在sparkpool的挖矿使用个人账户 sp_ljjss 欢迎各位挖ETH大哥们加入矿车车队
