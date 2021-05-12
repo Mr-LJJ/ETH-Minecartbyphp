@@ -1,0 +1,213 @@
+#font1 {
+  font-family: "Microsoft YaHei";
+  color: #6c6c6c;
+}
+#font2 {
+  font-family: "Microsoft YaHei";
+  color: #000000;
+}
+#web_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+.class1 {
+  width: 430px;
+          height: 330px;
+          float: left;
+          margin-right: 20px;
+          background-color: #FCFCFC;
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+    margin: auto;
+    box-shadow: 5px 2px 5px #000;
+    border-radius: 5px;
+      }
+      .logo1 {
+        position: absolute;
+          left: 2.5em;
+          top: 1.5em;
+          right: 0;
+          bottom: 0;
+    margin: auto;
+      }
+      .title {
+        position: absolute;
+          left: 0;
+          top: 1.5em;
+          right: 1em;
+          bottom: 0;
+    margin: auto;
+      }
+      .register {
+        position: absolute;
+          left: 2.5em;
+          top:  10.5em;
+          right: 0;
+          bottom: 0;
+    margin: auto;
+      }
+
+* {
+  box-sizing: border-box;
+}
+.centered {
+  width: 350px;
+  height: 110px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.group {
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  position: absolute;
+  font-family: "Microsoft YaHei";
+}
+
+label {
+  position: absolute;
+  top: 28.6666666667px;
+  color: #000000;
+  font: 300 24.1111111117px Roboto;
+  cursor: text;
+  transition: .25s ease;
+}
+input {
+  font-family: "Microsoft YaHei";
+  display: block;
+  width: 100%;
+  padding-top: 36px;
+  border: none;
+  border-radius: 0;
+  font-size: 20px;
+  transition: .3s ease;
+  background-color: #FCFCFC;
+}
+input:valid ~ label {
+  top: 0;
+  font: 700 22px Roboto;
+  background-color: #FCFCFC;
+}
+input:focus {
+  outline: none;
+  background-color: #FCFCFC;
+}
+input:focus ~ label {
+  top: 0;
+  font: 700 22px Roboto;
+  color: #2196f3;
+  background-color: #FCFCFC;
+}
+input:focus ~ .bar:before {
+  transform: translateX(0);
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #FCFCFC inset;
+  -webkit-text-fill-color: black !important;
+}
+
+.bar {
+  background: #000000;
+  content: '';
+  width: 350px;
+  height: 2.6666666667px;
+  transition: .3s ease;
+  position: relative;
+}
+.bar:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  background: #2196f3;
+  transform: translateX(-100%);
+}
+
+::selection {
+  background: rgba(33, 150, 243, 0.3);
+}
+.button {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #2196f3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 12px;
+  width: 100px;
+  height: 43px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttenposition {
+  position: absolute;
+          left: 18.5em;
+          top:  16em;
+          right: 0;
+          bottom: 0;
+    margin: auto;
+}
+.footer {
+  position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   opacity: 0.7;
+   background-color: #00000F;
+   height: 45px;
+}
+#footerword {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  color: #f2f2f2;
+  font-family: Microsoft YaHei;
+}
